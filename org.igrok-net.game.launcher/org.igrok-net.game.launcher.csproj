@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net4.8</TargetFramework>
+		<RootNamespace>IRNETGE.Launcher</RootNamespace>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Platforms>x64</Platforms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\org.igrok-net.game.engine\org.igrok-net.game.engine.csproj" />
+		<ProjectReference Include="..\org.igrok-net.game.natives\org.igrok-net.game.natives.vcxproj" />
+	</ItemGroup>
+
+</Project>

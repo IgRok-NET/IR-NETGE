@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.igrok-net.game.engine", "org.igrok-net.game.engine\org.igrok-net.game.engine.csproj", "{F207DD2B-69B6-4781-988A-80E1F8F0A85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.igrok-net.game.launcher", "org.igrok-net.game.launcher\org.igrok-net.game.launcher.csproj", "{5AB8E05D-5CC4-9E64-2657-920EC7A6335C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "org.igrok-net.game.natives", "org.igrok-net.game.natives\org.igrok-net.game.natives.vcxproj", "{33808046-73C7-A056-5507-56FA916C3CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F207DD2B-69B6-4781-988A-80E1F8F0A85C}.Debug|x64.ActiveCfg = Debug|x64
+		{F207DD2B-69B6-4781-988A-80E1F8F0A85C}.Debug|x64.Build.0 = Debug|x64
+		{F207DD2B-69B6-4781-988A-80E1F8F0A85C}.Release|x64.ActiveCfg = Release|x64
+		{F207DD2B-69B6-4781-988A-80E1F8F0A85C}.Release|x64.Build.0 = Release|x64
+		{5AB8E05D-5CC4-9E64-2657-920EC7A6335C}.Debug|x64.ActiveCfg = Debug|x64
+		{5AB8E05D-5CC4-9E64-2657-920EC7A6335C}.Debug|x64.Build.0 = Debug|x64
+		{5AB8E05D-5CC4-9E64-2657-920EC7A6335C}.Release|x64.ActiveCfg = Release|x64
+		{5AB8E05D-5CC4-9E64-2657-920EC7A6335C}.Release|x64.Build.0 = Release|x64
+		{33808046-73C7-A056-5507-56FA916C3CB7}.Debug|x64.ActiveCfg = Debug|x64
+		{33808046-73C7-A056-5507-56FA916C3CB7}.Debug|x64.Build.0 = Debug|x64
+		{33808046-73C7-A056-5507-56FA916C3CB7}.Release|x64.ActiveCfg = Release|x64
+		{33808046-73C7-A056-5507-56FA916C3CB7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA84B71B-268D-45D3-A13B-E665290F0B69}
+	EndGlobalSection
+EndGlobal
