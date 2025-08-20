@@ -1,20 +1,39 @@
 #pragma once
 
-#include "UnmanagedNativeWindow.h"
-
 using namespace System;
-using namespace System::Windows::Forms;
+using namespace System::Diagnostics;
+using namespace System::Threading;
 
 namespace IRNETGE {
 	namespace Natives {
 		public ref class IGNNativeWindow
 		{
 		private:
-			UnmanagedNativeWindow* nativeWindow;
+			HWND windowHandle;
+			HINSTANCE hInstance;
+			HICON appIcon;
+
+			HDC hdc;
+			HGLRC hglrc;
+
+			static bool isClosing;
+
+			int targetFps;
+
+			void DisableVSync();
+			void InitOpenGL();
+			void CleanupOpenGL();
+
 		public:
-			IGNNativeWindow(Panel^ panel);
-			void NativeDraw();
+			IGNNativeWindow();
 			~IGNNativeWindow();
+			!IGNNativeWindow();
+
+			void Run();
+			void SetIcon(IntPtr iconPointer);
+			void SetFpsTarget(int target);
+
+			static LRESULT ProcessMessage(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 		};
 	}
 }

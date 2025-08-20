@@ -14,4 +14,10 @@
 		<ProjectReference Include="..\org.igrok-net.game.natives\org.igrok-net.game.natives.vcxproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Update="icon.ico">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
 </Project>

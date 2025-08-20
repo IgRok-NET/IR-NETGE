@@ -17,5 +17,6 @@
 #include <Windows.h>
 #include <gl/GL.h>
 #include <gl/GLU.h>
+#include <chrono>
 
 #endif //PCH_H
